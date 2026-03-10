@@ -19,13 +19,14 @@ public class Exercício2 {
         int numero2 = scanner.nextInt();
         
         if (numero1 > numero2) {
-            System.out.println("O número" + numero1 + "é  maior que" + numero2 + ".");
+            System.out.println("O número " + numero1 + " é  maior que" + numero2 + ".");
         }
-        else if (1 == numero2) {
+        else if (numero1 == numero2) {
             System.out.println("Os números informados são equivalentes/iguais.");
         }
         else {
-            System.out.println("O número" + numero2 + "é  maior que" + numero1 + ".");
+            System.out.println("O número " + numero2 + " é  maior que" + numero1 + ".");
         }
     }
+
 }
