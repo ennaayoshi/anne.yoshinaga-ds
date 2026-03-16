@@ -16,7 +16,7 @@ public class Exercício10 {
         double altura = scanner.nextDouble();
 
         System.out.println("Informe seu Gênero (F ou M): ");
-        String genero = scanner.nextLine();
+        String genero = scanner.next();
 
         if (genero.equalsIgnoreCase("M")) {
             double pesoIdealH = (72.7 * altura) - 58;
